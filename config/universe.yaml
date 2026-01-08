@@ -1,0 +1,14 @@
+base_currency: USD
+
+factor_instruments:
+  - MKT_US
+  - USD
+  - RATES_US10Y
+  - OIL
+  - GOLD
+  - VOL
+
+# Leave empty to score all non-factor instruments.
+score_universe: []
+
+portfolio_group_type: micro

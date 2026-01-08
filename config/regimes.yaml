@@ -1,0 +1,23 @@
+# Soft regime proxy parameters (v1)
+risk_off:
+  vol_z_weight: 0.9
+  credit_z_weight: 0.6
+  corr_spike_weight: 0.6
+  bias: -0.5
+
+# Channel weights as a function of risk_off probability p in [0,1]
+# α = w_stat, β = w_fund, γ = w_comp
+channel_weights:
+  risk_on:
+    stat: 0.65
+    fund: 0.30
+    comp: 0.05
+  risk_off:
+    stat: 0.25
+    fund: 0.65
+    comp: 0.10
+
+# Portfolio de-risking (multiply gross) as function of risk_off
+portfolio_gross:
+  risk_on: 1.0
+  risk_off: 0.6

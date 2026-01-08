@@ -1,0 +1,26 @@
+features:
+  ret_clip: 0.25
+  vol_span: 60
+  yield_to_total_return: true   # if duration present, use TR proxy for yields in modeling comparisons
+
+stat_channel:
+  method: partial   # corr | partial
+  window: 60
+  shrink: 0.15
+  top_k: 12
+  remove_market_mode: true
+
+expected_return:
+  train_window: 252
+  ridge_alpha: 5.0
+  neighbor_lambda: 1.0
+  regime_mixture: true          # fit risk-on and risk-off models and blend predictions by p_off
+
+residuals:
+  resid_sigma_span: 60
+  half_life_min_points: 80
+  crisis_sigma_mult: 0.6        # increase sigma when risk_off high: sigma *= (1 + crisis_sigma_mult*p_off)
+
+mean_reversion:
+  horizon_days: 5
+  ar_window: 252

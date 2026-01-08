@@ -1,0 +1,16 @@
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Poetry / Pipenv
+.poetry/
+.pipenv/
+Pipfile.lock
+
+# Virtualenv metadata
+.pyenv/
+.python-version

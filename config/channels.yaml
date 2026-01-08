@@ -1,0 +1,16 @@
+stat:
+  window: 60
+  shrink: 0.15
+  top_k: 12
+  remove_market_mode: true
+  method: partial
+
+fund:
+  beta_window: 120
+  top_k: 12
+  include_static_edges: true
+  static_edge_scale: 1.0
+
+comp:
+  include_negative_edges: true
+  negative_edge_scale: 1.0

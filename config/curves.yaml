@@ -1,0 +1,8 @@
+# Define yield curves for computing level/slope/curvature factors.
+# Instruments should be yield-type in instrument_master.csv.
+curves:
+  USD_GOVT:
+    points:
+      short: US2Y_YIELD
+      mid:   US10Y_YIELD
+      long:  US30Y_YIELD

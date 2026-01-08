@@ -1,0 +1,18 @@
+instrument_id,vendor_symbol,asset_class,data_type,field,quote_ccy,base_ccy,is_factor,active_from,active_to,meta_json
+SPY,SPY,equities,price,px,USD,USD,False,2000-01-01,,
+QQQ,QQQ,equities,price,px,USD,USD,False,2000-01-01,,
+EURUSD,EURUSD,fx,price,px,USD,USD,False,2000-01-01,,
+USDJPY,USDJPY,fx,price,px,JPY,USD,False,2000-01-01,,
+GOLD,XAUUSD,commodities,price,px,USD,USD,False,2000-01-01,,
+OIL,CL=F,commodities,price,px,USD,USD,True,2000-01-01,,
+US10Y_YIELD,US10Y,rates,yield,yield,USD,USD,False,2000-01-01,,"{\duration\"": 8.5}"""
+HYG,HYG,credit,price,px,USD,USD,False,2000-01-01,,
+LQD,LQD,credit,price,px,USD,USD,False,2000-01-01,,
+VIX,^VIX,vol,price,px,USD,USD,True,2000-01-01,,
+MKT_US,SPY,equities,price,px,USD,USD,True,2000-01-01,,
+USD,DXY,fx,price,px,USD,USD,True,2000-01-01,,
+RATES_US10Y,US10Y,rates,yield,yield,USD,USD,True,2000-01-01,,
+VOL,^VIX,vol,price,px,USD,USD,True,2000-01-01,,
+US2Y_YIELD,US2Y,rates,yield,yield,USD,USD,false,2000-01-01,,"{""duration"": 1.9}"
+US30Y_YIELD,US30Y,rates,yield,yield,USD,USD,false,2000-01-01,,"{""duration"": 18.5}"
+TBILL3M_YIELD,TBILL3M,cash,yield,yield,USD,USD,true,2000-01-01,,"{""duration"": 0.25}"

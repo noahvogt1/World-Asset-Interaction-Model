@@ -1,0 +1,11 @@
+group_id,group_type,name
+micro_us_equity,micro,US Equity
+micro_fx_g10,micro,G10 FX
+micro_rates_us,micro,US Rates
+micro_commodities,micro,Commodities
+micro_credit,micro,Credit
+mini_equity,mini,Equities
+mini_fx,mini,FX
+mini_rates,mini,Rates
+mini_cmdty,mini,Commodities
+mini_credit,mini,Credit

@@ -1,0 +1,15 @@
+# Simple transaction cost model (v1+)
+# cost per unit turnover (absolute change in weight) in basis points by asset_class.
+# cost_usd = (bps/10000) * notional_turnover
+asset_class_bps:
+  equities: 5
+  fx: 1
+  rates: 2
+  credit: 6
+  commodities: 3
+  vol: 10
+
+# Optional additional impact term (scaled by sqrt(turnover)); disabled by default
+impact:
+  enabled: false
+  k: 0.0

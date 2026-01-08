@@ -1,4 +1,4 @@
-# worldflow_v1
+# worldflow
 
 A multi-asset, regime-aware network residual (mispricing) engine.
 
